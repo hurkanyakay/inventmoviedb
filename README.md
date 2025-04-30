@@ -1,8 +1,8 @@
-# Movie Db Search
+# Movie Db Search [DEMO](https://inventmoviedb.netlify.app/)
 
 ![](/.github/Screenshot.png)
 
-This repo created for Invent.ai Frontend Case Study
+This repo created for Invent.ai Frontend Case Study [DEMO](https://inventmoviedb.netlify.app/)
 
 Uses [Vite](https://vitejs.dev/) and [React](https://react.dev/) to create a Single Page Application with state management [Redux Toolkit](https://redux-toolkit.js.org/), UI design [Material Ui](https://mui.com/material-ui/)
 
