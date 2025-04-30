@@ -21,7 +21,7 @@ export type MoviesApiInput = {
   page:number
 }
 export const moviesApiSlice = createApi({
-  baseQuery: fetchBaseQuery({ baseUrl: "http://www.omdbapi.com" }),
+  baseQuery: fetchBaseQuery({ baseUrl: "https://www.omdbapi.com" }),
   reducerPath: "moviesApi",
   tagTypes: ["Movies"],
   endpoints: build => ({

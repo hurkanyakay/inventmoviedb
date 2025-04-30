@@ -21,7 +21,7 @@ type MovieApiResponse = {
   imdbRating: string
 }
 export const movieApiSlice = createApi({
-  baseQuery: fetchBaseQuery({ baseUrl: "http://www.omdbapi.com" }),
+  baseQuery: fetchBaseQuery({ baseUrl: "https://www.omdbapi.com" }),
   reducerPath: "movieApi",
   tagTypes: ["Movie"],
   endpoints: build => ({
