@@ -1,5 +1,7 @@
 # Movie Db Search
 
+![](/.github/Screenshot.png)
+
 This repo created for Invent.ai Frontend Case Study
 
 Uses [Vite](https://vitejs.dev/) and [React](https://react.dev/) to create a Single Page Application with state management [Redux Toolkit](https://redux-toolkit.js.org/), UI design [Material Ui](https://mui.com/material-ui/)
@@ -30,10 +32,11 @@ as much as possible:
 README.md file.
 - [x] The use of SASS/LESS/SCSS for custom styling is considered a plus. `supported`
 - [x] Redux usage for state management is considered a plus. `Redux Toolkit is used for state management and caching requests`
-- [] Utility libraries such as Lodash, Underscore.js, moment, etc. can be used. `Custom debounce hook used instead of lodash debounce`
+- [ ] Utility libraries such as Lodash, Underscore.js, moment, etc. can be used. `Custom debounce hook used instead of lodash debounce`
 - [x] CSS frameworks like Bootstrap, Semantic UI, Material UI, etc. can be utilized. `Material Ui is used`
 
 Extra
+- Redux Toolkit queries are used for caching requests
 - Material Skeleton is used for loading state of searches
 - Api key is in .env file
 - React-router-dom is used for routing
