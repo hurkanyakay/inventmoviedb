@@ -23,9 +23,11 @@ const Home = () => {
   const [page, setPage] = useState(1)
 
   const handleTextChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    setPage(1)
     setTerm(event.target.value)
   }
   const handleYearChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    setPage(1)
     setYear(event.target.value)
   }
 
@@ -41,6 +43,7 @@ const Home = () => {
   }
 
   const handleSelectChange = (event: SelectChangeEvent) => {
+    setPage(1)
     setType(event.target.value)
   }
 
